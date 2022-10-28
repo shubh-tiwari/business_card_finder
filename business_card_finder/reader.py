@@ -82,7 +82,7 @@ class Data_Reader:
     def visualize_result(self):
         font = cv2.FONT_HERSHEY_SIMPLEX
         output_image = self.image.copy()
-        index_list = u.ocr_data.index.to_list()
+        index_list = self.ocr_data.index.to_list()
         for index in index_list:
             word = self.ocr_data.loc[index, 'word']
             ymin = self.ocr_data.loc[index, 'ymin']
