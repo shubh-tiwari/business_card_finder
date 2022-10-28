@@ -15,12 +15,23 @@ Sample output can be found in folder below- <br />
 ### Sample outputs for finder
 - Solution takes care of spelling mistakes, incomplete names and case mismatches
 - Solution takes care of small capturing deformations <br/><br/>
-<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img1.png" width="400"/> <img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img2.png" width="400"/>
-<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img3.png" width="400"/> <img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img4.png" width="400"/>
+
+<b>Case 1 :<b/> 'Chris' is searched and it is matched with card of 'CHRIS SALCEDO'  <br/><br/>
+<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img1.png" width="400"/> <br/><br/> 
+<b>Case 1 :<b/> 'Bnard' is searched and the closest match to this word is 'BERNARD' <br/><br/> 
+<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img2.png" width="400"/> <br/><br/> 
+<b>Case 1 :<b/> 'MAR' is searched and the closest match to this word is 'MARK' <br/><br/>
+<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img3.png" width="400"/> <br/><br/> 
+<b>Case 1 :<b/> 'Rafal' is searched and the closest match to this word is 'RAFAEL' <br/><br/>
+<img src="https://github.com/shubh-tiwari/business_card_finder/blob/main/output_images/finder_outputs/img4.png" width="400"/> <br/><br/> 
 
 ### To do lists
 - Extracting exact person names, company names and telephone numbers from extracted datasets
 - Image correction for skewness and deformations
+
+### Try out
+Check this notebook - <br/>
+[https://github.com/shubh-tiwari/business_card_finder/blob/main/notebooks/test_finder.ipynb](https://github.com/shubh-tiwari/business_card_finder/blob/main/notebooks/test_finder.ipynb)
 
 ### References
 1. [https://github.com/mindee/doctr](https://github.com/mindee/doctr)
